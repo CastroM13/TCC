@@ -12,6 +12,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
 <body>
@@ -38,7 +39,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="livros.html">Livros Emprestados</a>
-                <a class="dropdown-item" href="prazos.html">Prazos</a>
+                <a class="dropdown-item" href="situacao.html">Situação</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="config.html">Configurações</a>
               </div>
@@ -52,7 +53,15 @@
       </nav>
 
     <section>
-
+      <div style="border-radius: 4px;background-color: rgb(247, 247, 247)" class="container">
+        <h1>Configurações do seu perfil</h1>
+        <h3><small>Nome:</small></h3>
+        <p class="nmConfig">Fulano de Silva</p>
+        <h3><small>RM:</small></h3>
+        <p class="rmConfig">160182</p>
+        <h3><small>Senha:</small></h3>
+        <p style="margin: 4px;display: inline-block"class="rmConfig">********</p><i onClick="edtSenha()" class="fas fa-pencil-alt edtSenha"></i>
+      </div>
     </section>
     
 

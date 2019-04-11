@@ -64,4 +64,9 @@ h2{
 @media all and (max-width: 480px) {
     .category { display: none; }
     .author { display: none; }
+    .nice{ margin-top: 10px !important;}
   }
+
+@media screen and (min-width: 800px) {
+  .nice{ margin-left:-50px !important; }
+}

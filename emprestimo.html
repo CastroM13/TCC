@@ -39,7 +39,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="livros.html">Livros Emprestados</a>
-                <a class="dropdown-item" href="prazos.html">Prazos</a>
+                <a class="dropdown-item" href="situacao.html">Situação</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="config.html">Configurações</a>
               </div>
@@ -54,10 +54,12 @@
 
     <section>
         <h2 style="text-align: center">Empréstimo de Livro</h2>
-        <form style="float: right;"class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Livro" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-              </form>
+        <div class="row no-gutters">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6"><input type="text" class="form-control text-center" placeholder="Text input"></div><br/>
+            <div style="text-align: center;"class="col-sm-2 nice"><button type="button" class="btn btn-outline-dark">Pesquisar</button></div>
+          </div>
+          <p></p>
         <table class="table table-hover">
                 <thead>
                   <tr>
@@ -70,7 +72,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr data-toggle="modal" data-target="#modal">>
+                  <tr data-toggle="modal" data-target="#modal">
                     <th scope="row">1</th>
                     <td>Livrum: The Book of Tests</td>
                     <td>J. Doe</td>
